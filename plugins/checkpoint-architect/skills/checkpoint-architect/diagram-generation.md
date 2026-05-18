@@ -1,6 +1,8 @@
 ---
 skill: diagram-generation
-version: 1.0
+version: 2.3
+parent-skill: checkpoint-architect
+parent-version: 2.3
 description: 审查逻辑可视化流程图生成规则（Mermaid + ASCII）
 ---
 

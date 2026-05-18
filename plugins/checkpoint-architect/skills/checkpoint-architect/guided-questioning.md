@@ -1,6 +1,8 @@
 ---
 skill: guided-questioning
-version: 1.0
+version: 2.3
+parent-skill: checkpoint-architect
+parent-version: 2.3
 description: 引导模式的持续提问框架，确保逐步收集完整信息
 ---
 

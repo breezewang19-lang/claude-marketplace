@@ -1,13 +1,15 @@
 ---
 skill: review-iteration
-version: 1.0
+version: 2.3
+parent-skill: checkpoint-architect
+parent-version: 2.3
 description: 用户审查与迭代修改逻辑，支持多轮精炼
 ---
 
 # Review Iteration - 审查与迭代修改
 
 ## 用途
-为 Step 6 提供用户审查、修改处理和迭代循环逻辑。跟踪修改次数和用户确认状态。用户明确确认后才进入验证。每次修改后重新生成流程图。
+为 Step 5 提供用户审查、修改处理和迭代循环逻辑。跟踪修改次数和用户确认状态。用户明确确认后才进入验证。每次修改后重新生成流程图。
 
 ## 初始审查展示
 
@@ -134,4 +136,4 @@ System: 好的，我将添加签名检查：
 - 修改次数：{iteration_count}
 接下来将进行内容验证...
 ```
-直接进入 Step 6，不额外询问。
+直接进入 Step 6 验证，不额外询问。

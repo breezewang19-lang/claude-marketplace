@@ -1,9 +1,9 @@
 ---
 skill: checkpoint-templates
-version: 1.0
+version: 2.3
+parent-skill: checkpoint-architect
+parent-version: 2.3
 description: 提供5种常见审查点模式的模板和引导问题，帮助产品经理快速构建审查点内容
-author: CheckPoint Architect System
-created: 2026-03-09
 ---
 
 # CheckPoint Templates - 审查点模板库
@@ -489,4 +489,4 @@ A: 完成后使用checkpoint-validator进行验证，它会检查格式、结构
 ## 相关文档
 
 - 验证器：`checkpoint-validator.md`
-- 主skill：`checkpoint-architect.md`
+- 主skill：`SKILL.md`

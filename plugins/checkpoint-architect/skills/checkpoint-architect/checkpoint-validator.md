@@ -1,9 +1,9 @@
 ---
 skill: checkpoint-validator
-version: 1.0
+version: 2.3
+parent-skill: checkpoint-architect
+parent-version: 2.3
 description: 验证审查点内容是否符合格式规范，确保与Python生成程序兼容
-author: CheckPoint Architect System
-created: 2026-03-09
 ---
 
 # CheckPoint Validator - 审查点内容验证器
